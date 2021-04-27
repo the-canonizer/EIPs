@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+#Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import 'minima';
@@ -19,5 +19,14 @@
 main.page-content {
   div.wrapper {
     max-width: calc(1280px - (30px * 2));
+  }
+  
+}
+header{
+  img.logo_image{
+    float: left;
+    height: 25%;
+    width: 5%;
+    padding: 10px 15px;
   }
 }
